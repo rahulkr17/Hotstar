@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tv"
+            android:text="Netflix"
+            android:textSize="60dp"
+            android:textColor="@color/red"
+            android:gravity="center">
+
+        </TextView>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web series of marvel"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center">
+
+    </TextView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="190dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/cse"
+                        tools:layout_editor_absoluteX="-55dp"
+                        tools:layout_editor_absoluteY="282dp"></ImageView>
+
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/abc"
+                    tools:layout_editor_absoluteX="-55dp"
+                    tools:layout_editor_absoluteY="282dp"></ImageView>
+
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/point"
+                    tools:layout_editor_absoluteX="-55dp"
+                    tools:layout_editor_absoluteY="282dp">
+                </ImageView>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="comedy"
+                                android:textColor="@color/GreenYellow"
+                                android:textSize="30dp"
+                                android:gravity="center">
+
+                            </TextView>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/man"
+                        tools:layout_editor_absoluteX="-55dp"
+                        tools:layout_editor_absoluteY="282dp">
+
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/a"
+                        tools:layout_editor_absoluteX="-55dp"
+                        tools:layout_editor_absoluteY="282dp">
+
+
+
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/point"
+                        tools:layout_editor_absoluteX="-55dp"
+                        tools:layout_editor_absoluteY="282dp">
+                    </ImageView>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Games"
+                    android:textColor="@color/DarkRed"
+                    android:textSize="30dp"
+                    android:gravity="center">
+
+                </TextView>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/download"
+                            tools:layout_editor_absoluteX="-55dp"
+                            tools:layout_editor_absoluteY="282dp">
+                        </ImageView>
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/kabadi"
+                            tools:layout_editor_absoluteX="-55dp"
+                            tools:layout_editor_absoluteY="282dp">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/point"
+                            tools:layout_editor_absoluteX="-55dp"
+                            tools:layout_editor_absoluteY="282dp">
+                        </ImageView>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="News"
+                    android:textColor="@color/green"
+                    android:textSize="30dp"
+                    android:gravity="center">
+
+                </TextView>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/aajtak"
+                        tools:layout_editor_absoluteX="-55dp"
+                        tools:layout_editor_absoluteY="282dp">
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/rajya"
+                        tools:layout_editor_absoluteX="-55dp"
+                        tools:layout_editor_absoluteY="282dp">
+
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/news"
+                        tools:layout_editor_absoluteX="-55dp"
+                        tools:layout_editor_absoluteY="282dp">
+                    </ImageView>
+
+                </LinearLayout>
+                </HorizontalScrollView>
+
+
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
